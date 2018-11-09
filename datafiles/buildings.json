@@ -1,0 +1,211 @@
+{
+    "buildings" : [
+        {
+            "buildingName" : "Haberdashery",
+            "fixes" : [
+                "Pointy Hat"
+            ]
+        },
+        {
+            "buildingName" : "Tailor",
+            "fixes" : [
+                "Outdated Styles",
+                "Shredded Clothes",
+                "Naked"
+            ]
+        },
+        {
+            "buildingName" : "Barber",
+            "fixes" : [
+                "Furry",
+                "Widow's Peak"
+            ]
+        },
+        {
+            "buildingName" : "Spray Tan Salon",
+            "fixes" : [
+                "Pale Skin",
+                "Green Skin"
+            ]
+        },
+        {
+            "buildingName" : "Dentist",
+            "fixes" : [
+                "Fangs",
+                "Yellow Teeth"
+            ]
+        },
+        {
+            "buildingName" : "Umbrella Stand",
+            "fixes" : [
+                "Fear of the Sun"
+            ]
+        },
+        {
+            "buildingName" : "Perfumery",
+            "fixes" : [
+                "Stinky",
+                "Grave Rot",
+                "Swamp Ass"
+            ]
+        },
+        {
+            "buildingName" : "Optician",
+            "fixes" : [
+                "Red Eyes",
+                "Purple Eyes",
+                "Yellow Eyes"
+            ]
+        },
+        {
+            "buildingName" : "Cross-Fit Gym",
+            "fixes" : [
+                "Emaciated Body"
+            ]
+        },
+        {
+            "buildingName" : "Temple",
+            "fixes" : [
+                "Cursed"
+            ]
+        },
+        {
+            "buildingName" : "Dry Cleaner",
+            "fixes" : [
+                "Dirty Rags"
+            ]
+        },
+        {
+            "buildingName" : "Beauty Salon",
+            "fixes" : [
+                "Green Skin",
+                "Pale Skin"
+            ]
+        },
+        {
+            "buildingName" : "Plastic Surgeon",
+            "fixes" : [
+                "Big Nose",
+                "Gills",
+                "Fins"
+            ]
+        },
+        {
+            "buildingName" : "Dermatologist",
+            "fixes" : [
+                "Giant Warts",
+                "Rotted Skin",
+                "Scales"
+            ]
+        },
+        {
+            "buildingName" : "Waste Treatment Facility",
+            "fixes" : [
+                "Slime"
+            ]
+        },
+        {
+            "buildingName" : "Speech Therapist",
+            "fixes" : [
+                "Growling",
+                "Romanian Accent"
+            ]
+        },
+        {
+            "buildingName" : "Corner Drug Store",
+            "fixes" : [
+                "Thirsty"
+            ]
+        },
+        {
+            "buildingName" : "Spa",
+            "fixes" : [
+                "Angry"
+            ]
+        },
+        {
+            "buildingName" : "Costume Shop",
+            "fixes" : [
+                "Naked"
+            ]
+        }
+    ],
+    "buildingCoords" : [
+        {
+            "buildingX" : 60,
+            "buildingY" : 60
+        },
+        {
+            "buildingX" : 660,
+            "buildingY" : 60
+        },
+        {
+            "buildingX" : 1260,
+            "buildingY" : 60
+        },
+        {
+            "buildingX" : 1860,
+            "buildingY" : 60
+        },
+        {
+            "buildingX" : 2460,
+            "buildingY" : 60
+        },
+        {
+            "buildingX" : 60,
+            "buildingY" : 660
+        },
+        {
+            "buildingX" : 660,
+            "buildingY" : 660
+        },
+        {
+            "buildingX" : 1260,
+            "buildingY" : 660
+        },
+        {
+            "buildingX" : 1860,
+            "buildingY" : 660
+        },
+        {
+            "buildingX" : 2460,
+            "buildingY" : 660
+        },
+        {
+            "buildingX" : 60,
+            "buildingY" : 1260
+        },
+        {
+            "buildingX" : 660,
+            "buildingY" : 1260
+        },
+        {
+            "buildingX" : 1860,
+            "buildingY" : 1260
+        },
+        {
+            "buildingX" : 2460,
+            "buildingY" : 1260
+        },
+        {
+            "buildingX" : 60,
+            "buildingY" : 1860
+        },
+        {
+            "buildingX" : 660,
+            "buildingY" : 1860
+        },
+        {
+            "buildingX" : 1260,
+            "buildingY" : 1860
+        },
+        {
+            "buildingX" : 1860,
+            "buildingY" : 1860
+        },
+        {
+            "buildingX" : 2460,
+            "buildingY" : 1860
+        }
+    ]
+}
