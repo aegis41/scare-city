@@ -6,3 +6,5 @@ image_index = monsterIndex;
 image_speed = 0;
 myXScale = image_xscale;
 myYScale = image_yscale;
+myX = x;
+myY = y;
