@@ -1,4 +1,4 @@
-/// @Build the City
+/// @Description Build the City
 
 // Get the building JSON
 
@@ -18,8 +18,16 @@ var buildingCount = ds_list_size(buildings);
 var buildingData = ds_grid_create(buildingCount, 2);
 for (var i = 0; i < buildingCount; i++) {
 	var theBuilding = ds_list_find_value(buildings, i);
-	buildingData[# i, 0] = theBuilding[? "buildingName"];
-	buildingData[# i, 1] = theBuilding[? "fixes"];
+	// getting the building name
+    buildingData[# i, 0] = theBuilding[? "buildingName"];
+	
+	//getting the fixes
+	var fixCount = ds_list_size(theBuilding[? "fixes"]);
+	var theFixes = [];
+	for (var j = 0; j < fixCount; j++) {
+		theFixes[j] = ds_list_find_value(theBuilding[? "fixes"], j);
+	}
+	buildingData[# i, 1] = theFixes;
 }
 
 var coordCount = ds_list_size(coords);
@@ -35,7 +43,8 @@ for (var i = 0; i < coordCount; i++) {
 
 for (var i = 0; i < ds_grid_width(buildingData); i++) {
 	buildingInst = instance_create_depth(coordData[# i, 0], coordData[# i, 1], -1, obj_Building);	
-	buildingInst.buildingName = buildingData[# i,0];
+	buildingInst.buildingName = buildingData[# i, 0];
+	buildingInst.buildingFixes = buildingData[# i, 1];
 }
 
 // Spawn the people

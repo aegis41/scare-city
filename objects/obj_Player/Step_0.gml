@@ -28,6 +28,8 @@ if (monstrosity <= 0) {
 	}	
 }
 
+// check for being close to a door
+closeToDoor = distance_to_object(obj_door) < 10;
 
 // move
 if (x + xMove > 0 && x + xMove + sprite_width < room_width && place_free(x + xMove, y + yMove)) {
