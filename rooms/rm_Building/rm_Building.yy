@@ -2,13 +2,13 @@
 {
     "name": "rm_Building",
     "id": "5bf64adb-2717-4f6e-8ec3-ddcc626b0e81",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "96fd5610-e4d4-4cb5-91e5-963bba6bc2a1",
-        "e961e6b4-26a7-4f8f-b689-1c22007b7278"
+        "e961e6b4-26a7-4f8f-b689-1c22007b7278",
+        "96fd5610-e4d4-4cb5-91e5-963bba6bc2a1"
     ],
     "IsDnD": false,
     "layers": [
